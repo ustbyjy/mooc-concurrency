@@ -1,4 +1,4 @@
-package com.ascend.concurrency.test;
+package com.ascend.concurrency.example.count;
 
 import com.ascend.concurrency.annotations.NotThreadSafe;
 import lombok.extern.slf4j.Slf4j;
@@ -10,7 +10,7 @@ import java.util.concurrent.Semaphore;
 
 @Slf4j
 @NotThreadSafe
-public class ConcurrencyTest {
+public class CountExample2 {
 
     public static int clientTotal = 5000;
 
