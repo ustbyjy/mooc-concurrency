@@ -1,12 +1,10 @@
 package com.ascend.concurrency.example.atomic;
 
 import com.ascend.concurrency.annotations.ThreadSafe;
-import com.ascend.concurrency.bean.User;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
-import java.util.concurrent.atomic.AtomicReference;
 
 @Slf4j
 @ThreadSafe
